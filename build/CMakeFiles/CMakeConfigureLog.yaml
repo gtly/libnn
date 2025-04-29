@@ -5,7 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
-      - "CMakeLists.txt:31 (project)"
+      - "CMakeLists.txt:15 (project)"
     message: |
       The target system is: Generic -  - riscv
       The host system is: Linux - 6.11.0-24-generic - x86_64
@@ -15,10 +15,640 @@ events:
       - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:31 (project)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      124
+      License is invalid or missing(0)
+      zcc: error: clang frontend command failed with exit code 124 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      124
+      License is invalid or missing(0)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      124
+      zcc: warning: argument unused during compilation: '-Aa' [-Wunused-command-line-argument]
+      License is invalid or missing(0)
+      zcc: error: clang frontend command failed with exit code 124 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      124
+      CMakeCCompilerId.c:851:5: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+        851 | int main(argc, argv) int argc; char *argv[];
+            |     ^
+      License is invalid or missing(0)
+      zcc: error: clang frontend command failed with exit code 124 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      error: unable to create target: 'No available targets are compatible with triple "thumbv7m-arm-none-eabi"'
+      1 error generated.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      124
+      License is invalid or missing(0)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      124
+      License is invalid or missing(0)
+      zcc: error: clang frontend command failed with exit code 124 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      124
+      License is invalid or missing(0)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      124
+      zcc: warning: argument unused during compilation: '-Aa' [-Wunused-command-line-argument]
+      License is invalid or missing(0)
+      zcc: error: clang frontend command failed with exit code 124 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      124
+      CMakeCCompilerId.c:851:5: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+        851 | int main(argc, argv) int argc; char *argv[];
+            |     ^
+      License is invalid or missing(0)
+      zcc: error: clang frontend command failed with exit code 124 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      error: unable to create target: 'No available targets are compatible with triple "thumbv7m-arm-none-eabi"'
+      1 error generated.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      124
+      License is invalid or missing(0)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      zcc: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      zcc: error: no input files
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-8X9YpW"
+      binary: "/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-8X9YpW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-8X9YpW'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ba42b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ba42b.dir/build.make CMakeFiles/cmTC_ba42b.dir/build
+        gmake[1]: Entering directory '/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-8X9YpW'
+        Building C object CMakeFiles/cmTC_ba42b.dir/CMakeCCompilerABI.c.obj
+        /opt/zcc-toolchain/3.2.5/bin/zcc    -o CMakeFiles/cmTC_ba42b.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        License is invalid or missing(0)
+        gmake[1]: *** [CMakeFiles/cmTC_ba42b.dir/build.make:78: CMakeFiles/cmTC_ba42b.dir/CMakeCCompilerABI.c.obj] Error 124
+        gmake[1]: Leaving directory '/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-8X9YpW'
+        gmake: *** [Makefile:127: cmTC_ba42b/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:15 (project)"
+    checks:
+      - "Check for working C compiler: /opt/zcc-toolchain/3.2.5/bin/zcc"
+    directories:
+      source: "/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-tVCUXG"
+      binary: "/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-tVCUXG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-tVCUXG'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_68e3c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_68e3c.dir/build.make CMakeFiles/cmTC_68e3c.dir/build
+        gmake[1]: 进入目录“/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-tVCUXG”
+        Building C object CMakeFiles/cmTC_68e3c.dir/testCCompiler.c.obj
+        /opt/zcc-toolchain/3.2.5/bin/zcc    -o CMakeFiles/cmTC_68e3c.dir/testCCompiler.c.obj -c /home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-tVCUXG/testCCompiler.c
+        License is invalid or missing(0)
+        gmake[1]: *** [CMakeFiles/cmTC_68e3c.dir/build.make:78：CMakeFiles/cmTC_68e3c.dir/testCCompiler.c.obj] 错误 124
+        gmake[1]: 离开目录“/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-tVCUXG”
+        gmake: *** [Makefile:127：cmTC_68e3c/fast] 错误 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      124
+      License is invalid or missing(0)
+      zcc: error: clang frontend command failed with exit code 124 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      124
+      License is invalid or missing(0)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      124
+      zcc: warning: argument unused during compilation: '-Aa' [-Wunused-command-line-argument]
+      License is invalid or missing(0)
+      zcc: error: clang frontend command failed with exit code 124 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      124
+      CMakeCCompilerId.c:851:5: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+        851 | int main(argc, argv) int argc; char *argv[];
+            |     ^
+      License is invalid or missing(0)
+      zcc: error: clang frontend command failed with exit code 124 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      error: unable to create target: 'No available targets are compatible with triple "thumbv7m-arm-none-eabi"'
+      1 error generated.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      124
+      License is invalid or missing(0)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      124
+      License is invalid or missing(0)
+      zcc: error: clang frontend command failed with exit code 124 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      124
+      License is invalid or missing(0)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      124
+      zcc: warning: argument unused during compilation: '-Aa' [-Wunused-command-line-argument]
+      License is invalid or missing(0)
+      zcc: error: clang frontend command failed with exit code 124 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      124
+      CMakeCCompilerId.c:851:5: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+        851 | int main(argc, argv) int argc; char *argv[];
+            |     ^
+      License is invalid or missing(0)
+      zcc: error: clang frontend command failed with exit code 124 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      error: unable to create target: 'No available targets are compatible with triple "thumbv7m-arm-none-eabi"'
+      1 error generated.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      124
+      License is invalid or missing(0)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      zcc: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      zcc: error: no input files
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-Pf2eTL"
+      binary: "/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-Pf2eTL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-Pf2eTL'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_91348/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_91348.dir/build.make CMakeFiles/cmTC_91348.dir/build
+        gmake[1]: Entering directory '/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-Pf2eTL'
+        Building C object CMakeFiles/cmTC_91348.dir/CMakeCCompilerABI.c.obj
+        /opt/zcc-toolchain/3.2.5/bin/zcc    -o CMakeFiles/cmTC_91348.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        License is invalid or missing(0)
+        gmake[1]: *** [CMakeFiles/cmTC_91348.dir/build.make:78: CMakeFiles/cmTC_91348.dir/CMakeCCompilerABI.c.obj] Error 124
+        gmake[1]: Leaving directory '/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-Pf2eTL'
+        gmake: *** [Makefile:127: cmTC_91348/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:16 (project)"
+    checks:
+      - "Check for working C compiler: /opt/zcc-toolchain/3.2.5/bin/zcc"
+    directories:
+      source: "/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-zOzyMQ"
+      binary: "/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-zOzyMQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-zOzyMQ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0a067/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0a067.dir/build.make CMakeFiles/cmTC_0a067.dir/build
+        gmake[1]: 进入目录“/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-zOzyMQ”
+        Building C object CMakeFiles/cmTC_0a067.dir/testCCompiler.c.obj
+        /opt/zcc-toolchain/3.2.5/bin/zcc    -o CMakeFiles/cmTC_0a067.dir/testCCompiler.c.obj -c /home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-zOzyMQ/testCCompiler.c
+        License is invalid or missing(0)
+        gmake[1]: *** [CMakeFiles/cmTC_0a067.dir/build.make:78：CMakeFiles/cmTC_0a067.dir/testCCompiler.c.obj] 错误 124
+        gmake[1]: 离开目录“/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-zOzyMQ”
+        gmake: *** [Makefile:127：cmTC_0a067/fast] 错误 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /opt/riscv/bin/riscv64-unknown-elf-gcc 
+      Compiler: /opt/zcc-toolchain/3.2.5/bin/zcc 
       Build flags: 
       Id flags:  
       
@@ -28,7 +658,7 @@ events:
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
-      The C compiler identification is GNU, found in:
+      The C compiler identification is Clang, found in:
         /home/gtly/Repetition/libnn/build/CMakeFiles/3.28.3/CompilerIdC/a.out
       
   -
@@ -36,62 +666,176 @@ events:
     backtrace:
       - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
       - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:31 (project)"
+      - "CMakeLists.txt:16 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-C5EHU4"
-      binary: "/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-C5EHU4"
+      source: "/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-aDpRTv"
+      binary: "/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-aDpRTv"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
-      CMAKE_SYSROOT: "/opt/riscv/riscv64-unknown-elf"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-C5EHU4'
+        Change Dir: '/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-aDpRTv'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ef210/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_ef210.dir/build.make CMakeFiles/cmTC_ef210.dir/build
-        gmake[1]: Entering directory '/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-C5EHU4'
-        Building C object CMakeFiles/cmTC_ef210.dir/CMakeCCompilerABI.c.obj
-        /opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf   -v -o CMakeFiles/cmTC_ef210.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
-        Using built-in specs.
-        COLLECT_GCC=/opt/riscv/bin/riscv64-unknown-elf-gcc
-        Target: riscv64-unknown-elf
-        Configured with: /home/gtly/riscv-gnu-toolchain/gcc/configure --target=riscv64-unknown-elf --prefix=/opt/riscv --disable-shared --disable-threads --enable-languages=c,c++ --with-pkgversion=g04696df0963 --with-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/riscv/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --disable-tm-clone-registry --src=.././gcc --enable-multilib --with-abi=lp64d --with-arch=rv64gc --with-tune=rocket --with-isa-spec=20191213 'CFLAGS_FOR_TARGET=-Os    -mcmodel=medlow' 'CXXFLAGS_FOR_TARGET=-Os    -mcmodel=medlow'
-        Thread model: single
-        Supported LTO compression algorithms: zlib
-        gcc version 14.2.0 (g04696df0963) 
-        COLLECT_GCC_OPTIONS='--sysroot=/opt/riscv/riscv64-unknown-elf' '-v' '-o' 'CMakeFiles/cmTC_ef210.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=rocket' '-march=rv64imafdc_zicsr_zifencei' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_ef210.dir/'
-         /opt/riscv/libexec/gcc/riscv64-unknown-elf/14.2.0/cc1 -quiet -v -imultilib . -isysroot /opt/riscv/riscv64-unknown-elf /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ef210.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=rocket -march=rv64imafdc_zicsr_zifencei -mabi=lp64d -misa-spec=20191213 -march=rv64imafdc_zicsr_zifencei -version -o /tmp/cce3QkRJ.s
-        GNU C17 (g04696df0963) version 14.2.0 (riscv64-unknown-elf)
-        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version none
-        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dd01a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_dd01a.dir/build.make CMakeFiles/cmTC_dd01a.dir/build
+        gmake[1]: Entering directory '/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-aDpRTv'
+        Building C object CMakeFiles/cmTC_dd01a.dir/CMakeCCompilerABI.c.obj
+        /opt/zcc-toolchain/3.2.5/bin/zcc   -v -MD -MT CMakeFiles/cmTC_dd01a.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_dd01a.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_dd01a.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Terapines LTD ZCC Pro 3.2.5 (296d9e548a76f86e6da2e6f59bf3074579d2c89d) based on LLVM 18.1.0
+        Target: riscv64-unknown-unknown-elf
+        Thread model: posix
+        InstalledDir: /opt/zcc-toolchain/3.2.5/.bin
+        Protection: enable
+        Found candidate GCC installation: /opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv32-unknown-unknown-elf/11.1.0
+        Found candidate GCC installation: /opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0
+        Selected GCC installation: /opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0
+        Candidate multilib: rv32ec/ilp32e;@march=rv32ec@mabi=ilp32e
+        Candidate multilib: rv32e_zca_zcb_zcmp_zcmt/ilp32e;@march=rv32e_zca_zcb_zcmp_zcmt@mabi=ilp32e
+        Candidate multilib: rv32ec_zmmul/ilp32e;@march=rv32ec_zmmul@mabi=ilp32e
+        Candidate multilib: rv32e_zmmul_zca_zcb_zcmp_zcmt/ilp32e;@march=rv32e_zmmul_zca_zcb_zcmp_zcmt@mabi=ilp32e
+        Candidate multilib: rv32eac/ilp32e;@march=rv32eac@mabi=ilp32e
+        Candidate multilib: rv32ea_zca_zcb_zcmp_zcmt/ilp32e;@march=rv32ea_zca_zcb_zcmp_zcmt@mabi=ilp32e
+        Candidate multilib: rv32emc/ilp32e;@march=rv32emc@mabi=ilp32e
+        Candidate multilib: rv32em_zca_zcb_zcmp_zcmt/ilp32e;@march=rv32em_zca_zcb_zcmp_zcmt@mabi=ilp32e
+        Candidate multilib: rv32emac/ilp32e;@march=rv32emac@mabi=ilp32e
+        Candidate multilib: rv32ema_zca_zcb_zcmp_zcmt/ilp32e;@march=rv32ema_zca_zcb_zcmp_zcmt@mabi=ilp32e
+        Candidate multilib: rv32i_zca_zcb_zcmp_zcmt/ilp32;@march=rv32i_zca_zcb_zcmp_zcmt@mabi=ilp32
+        Candidate multilib: rv32im_zca_zcb_zcmp_zcmt/ilp32;@march=rv32im_zca_zcb_zcmp_zcmt@mabi=ilp32
+        Candidate multilib: rv32i_zmmul_zca_zcb_zcmp_zcmt/ilp32;@march=rv32i_zmmul_zca_zcb_zcmp_zcmt@mabi=ilp32
+        Candidate multilib: rv32ic/ilp32;@march=rv32ic@mabi=ilp32
+        Candidate multilib: rv32ic_zmmul/ilp32;@march=rv32ic_zmmul@mabi=ilp32
+        Candidate multilib: rv32imc/ilp32;@march=rv32imc@mabi=ilp32
+        Candidate multilib: rv32iac/ilp32;@march=rv32iac@mabi=ilp32
+        Candidate multilib: rv32ia_zca_zcb_zcmp_zcmt/ilp32;@march=rv32ia_zca_zcb_zcmp_zcmt@mabi=ilp32
+        Candidate multilib: rv32imac/ilp32;@march=rv32imac@mabi=ilp32
+        Candidate multilib: rv32imac_xxldsp/ilp32;@march=rv32imac_xxldsp@mabi=ilp32
+        Candidate multilib: rv32imac_zba_zbb_zbc_zbs/ilp32;@march=rv32imac_zba_zbb_zbc_zbs@mabi=ilp32
+        Candidate multilib: rv32ima_zca_zcb_zcmp_zcmt/ilp32;@march=rv32ima_zca_zcb_zcmp_zcmt@mabi=ilp32
+        Candidate multilib: rv32ima_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs/ilp32;@march=rv32ima_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=ilp32
+        Candidate multilib: rv32imafc/ilp32f;@march=rv32imafc@mabi=ilp32f
+        Candidate multilib: rv32imafc_xxldsp/ilp32f;@march=rv32imafc_xxldsp@mabi=ilp32f
+        Candidate multilib: rv32imafc_zba_zbb_zbc_zbs/ilp32f;@march=rv32imafc_zba_zbb_zbc_zbs@mabi=ilp32f
+        Candidate multilib: rv32imafc_zp052b/ilp32f;@march=rv32imafc_zp052b@mabi=ilp32f
+        Candidate multilib: rv32imafc_zp052b_xandes/ilp32f;@march=rv32imafc_zp052b_xandes@mabi=ilp32f
+        Candidate multilib: rv32imaf_zca_zcb_zcf_zcmp_zcmt/ilp32f;@march=rv32imaf_zca_zcb_zcf_zcmp_zcmt@mabi=ilp32f
+        Candidate multilib: rv32imaf_zca_zcb_zcf_zcmp_zcmt_zba_zbb_zbc_zbs/ilp32f;@march=rv32imaf_zca_zcb_zcf_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=ilp32f
+        Candidate multilib: rv32imafdc/ilp32d;@march=rv32imafdc@mabi=ilp32d
+        Candidate multilib: rv32imafdc_xxldsp/ilp32d;@march=rv32imafdc_xxldsp@mabi=ilp32d
+        Candidate multilib: rv32imafdc_zba_zbb_zbc_zbs/ilp32d;@march=rv32imafdc_zba_zbb_zbc_zbs@mabi=ilp32d
+        Candidate multilib: rv32imafdc_zp052b/ilp32d;@march=rv32imafdc_zp052b@mabi=ilp32d
+        Candidate multilib: rv32imafdc_zp052b_xandes/ilp32d;@march=rv32imafdc_zp052b_xandes@mabi=ilp32d
+        Candidate multilib: rv32imafd_zca_zcb_zcd_zcf/ilp32d;@march=rv32imafd_zca_zcb_zcd_zcf@mabi=ilp32d
+        Candidate multilib: rv32imafd_zca_zcb_zcd_zcf_xxldsp/ilp32d;@march=rv32imafd_zca_zcb_zcd_zcf_xxldsp@mabi=ilp32d
+        Candidate multilib: rv32imafd_zca_zcb_zcd_zcf_zba_zbb_zbc_zbs/ilp32d;@march=rv32imafd_zca_zcb_zcd_zcf_zba_zbb_zbc_zbs@mabi=ilp32d
+        Candidate multilib: rv32imafd_zca_zcb_zcf_zcmp_zcmt/ilp32d;@march=rv32imafd_zca_zcb_zcf_zcmp_zcmt@mabi=ilp32d
+        Candidate multilib: rv32imafd_zca_zcb_zcf_zcmp_zcmt_zba_zbb_zbc_zbs/ilp32d;@march=rv32imafd_zca_zcb_zcf_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=ilp32d
+        Candidate multilib: rv64ima_zca_zcb_zcmp_zcmt/lp64;@march=rv64ima_zca_zcb_zcmp_zcmt@mabi=lp64
+        Candidate multilib: rv64ima_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs/lp64;@march=rv64ima_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=lp64
+        Candidate multilib: rv64imac/lp64;@march=rv64imac@mabi=lp64
+        Candidate multilib: rv64imac_zba_zbb_zbc_zbs/lp64;@march=rv64imac_zba_zbb_zbc_zbs@mabi=lp64
+        Candidate multilib: rv64imafc/lp64f;@march=rv64imafc@mabi=lp64f
+        Candidate multilib: rv64imafc_zba_zbb_zbc_zbs/lp64f;@march=rv64imafc_zba_zbb_zbc_zbs@mabi=lp64f
+        Candidate multilib: rv64imaf_zca_zcb_zcmp_zcmt/lp64f;@march=rv64imaf_zca_zcb_zcmp_zcmt@mabi=lp64f
+        Candidate multilib: rv64imaf_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs/lp64f;@march=rv64imaf_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=lp64f
+        Candidate multilib: rv64imafdc/lp64d;@march=rv64imafdc@mabi=lp64d
+        Candidate multilib: rv64imafd_zca_zcb_zcd/lp64d;@march=rv64imafd_zca_zcb_zcd@mabi=lp64d
+        Candidate multilib: rv64imafd_zca_zcb_zcd_zba_zbb_zbc_zbs/lp64d;@march=rv64imafd_zca_zcb_zcd_zba_zbb_zbc_zbs@mabi=lp64d
+        Candidate multilib: rv64imafd_zca_zcb_zcmp_zcmt/lp64d;@march=rv64imafd_zca_zcb_zcmp_zcmt@mabi=lp64d
+        Candidate multilib: rv64imafd_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs/lp64d;@march=rv64imafd_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=lp64d
+        Candidate multilib: rv64imafdc_zba_zbb_zbc_zbs/lp64d;@march=rv64imafdc_zba_zbb_zbc_zbs@mabi=lp64d
+        Candidate multilib: rv64imafdv/lp64d;@march=rv64imafdv@mabi=lp64d
+        Candidate multilib: rv64imafdcv/lp64d;@march=rv64imafdcv@mabi=lp64d
+        Candidate multilib: rv64gv/lp64d;@march=rv64gv@mabi=lp64d
+        Candidate multilib: rv64gcv/lp64d;@march=rv64gcv@mabi=lp64d
+        Selected multilib: rv64imafdc/lp64d;@i@m@a@f@d@c@zicsr@m64@mabi=lp64d
+         (in-process)
+         "/opt/zcc-toolchain/3.2.5/.bin/llvm" "zcc" -cc1 -triple riscv64-unknown-unknown-elf -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -nostdsysteminc -target-cpu generic-rv64 -target-feature +m -target-feature +a -target-feature +f -target-feature +d -target-feature +c -target-feature +zicsr -target-feature +experimental -target-feature +relax -target-abi lp64d -msmall-data-limit 8 -debugger-tuning=gdb -fdebug-compilation-dir=/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-aDpRTv -v -fcoverage-compilation-dir=/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-aDpRTv -resource-dir /opt/zcc-toolchain/3.2.5/lib/clang/3.2.5 -dependency-file CMakeFiles/cmTC_dd01a.dir/CMakeCCompilerABI.c.obj.d -MT CMakeFiles/cmTC_dd01a.dir/CMakeCCompilerABI.c.obj -sys-header-deps -isysroot /opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf -c-isystem /opt/riscv/riscv64-unknown-elf/include -c-isystem /opt/riscv/riscv64-unknown-elf/include -c-isystem . -internal-isystem /opt/zcc-toolchain/3.2.5/lib/clang/3.2.5/include -internal-isystem /opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/include -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -o CMakeFiles/cmTC_dd01a.dir/CMakeCCompilerABI.c.obj -x c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 3.2.5 based upon LLVM 3.2.5 default target riscv64-unknown-elf
         ignoring duplicate directory "/opt/riscv/riscv64-unknown-elf/include"
-        ignoring nonexistent directory "/opt/riscv/riscv64-unknown-elf/usr/local/include"
-        ignoring duplicate directory "/opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/../../../../riscv64-unknown-elf/include"
-        ignoring duplicate directory "/opt/riscv/riscv64-unknown-elf/include"
+        ignoring duplicate directory "/opt/zcc-toolchain/3.2.5/lib/clang/3.2.5/include"
         #include "..." search starts here:
         #include <...> search starts here:
          /opt/riscv/riscv64-unknown-elf/include
          .
-         /opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/include
-         /opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/include-fixed
+         /opt/zcc-toolchain/3.2.5/lib/clang/3.2.5/include
+         /opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/include
         End of search list.
-        Compiler executable checksum: c43e0544b8fdcc646bbd5a22d3ad6890
-        COLLECT_GCC_OPTIONS='--sysroot=/opt/riscv/riscv64-unknown-elf' '-v' '-o' 'CMakeFiles/cmTC_ef210.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=rocket' '-march=rv64imafdc_zicsr_zifencei' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_ef210.dir/'
-         /opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/../../../../riscv64-unknown-elf/bin/as -v --traditional-format -march=rv64imafdc_zicsr_zifencei -march=rv64imafdc_zicsr_zifencei -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_ef210.dir/CMakeCCompilerABI.c.obj /tmp/cce3QkRJ.s
-        GNU assembler version 2.44 (riscv64-unknown-elf) using BFD version (GNU Binutils) 2.44
-        COMPILER_PATH=/opt/riscv/libexec/gcc/riscv64-unknown-elf/14.2.0/:/opt/riscv/libexec/gcc/riscv64-unknown-elf/14.2.0/:/opt/riscv/libexec/gcc/riscv64-unknown-elf/:/opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/:/opt/riscv/lib/gcc/riscv64-unknown-elf/:/opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/../../../../riscv64-unknown-elf/bin/
-        LIBRARY_PATH=/opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/:/opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/../../../../riscv64-unknown-elf/lib/:/opt/riscv/riscv64-unknown-elf/lib/
-        COLLECT_GCC_OPTIONS='--sysroot=/opt/riscv/riscv64-unknown-elf' '-v' '-o' 'CMakeFiles/cmTC_ef210.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=rocket' '-march=rv64imafdc_zicsr_zifencei' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_ef210.dir/CMakeCCompilerABI.c.'
-        Linking C static library libcmTC_ef210.a
-        /usr/bin/cmake -P CMakeFiles/cmTC_ef210.dir/cmake_clean_target.cmake
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef210.dir/link.txt --verbose=1
-        /opt/riscv/bin/riscv64-unknown-elf-ar qc libcmTC_ef210.a CMakeFiles/cmTC_ef210.dir/CMakeCCompilerABI.c.obj
-        /opt/riscv/bin/riscv64-unknown-elf-ranlib libcmTC_ef210.a
-        gmake[1]: Leaving directory '/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-C5EHU4'
+        Linking C executable cmTC_dd01a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd01a.dir/link.txt --verbose=1
+        /opt/zcc-toolchain/3.2.5/bin/zcc  -v CMakeFiles/cmTC_dd01a.dir/CMakeCCompilerABI.c.obj -o cmTC_dd01a 
+        Terapines LTD ZCC Pro 3.2.5 (296d9e548a76f86e6da2e6f59bf3074579d2c89d) based on LLVM 18.1.0
+        Target: riscv64-unknown-unknown-elf
+        Thread model: posix
+        InstalledDir: /opt/zcc-toolchain/3.2.5/.bin
+        Protection: enable
+        Found candidate GCC installation: /opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv32-unknown-unknown-elf/11.1.0
+        Found candidate GCC installation: /opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0
+        Selected GCC installation: /opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0
+        Candidate multilib: rv32ec/ilp32e;@march=rv32ec@mabi=ilp32e
+        Candidate multilib: rv32e_zca_zcb_zcmp_zcmt/ilp32e;@march=rv32e_zca_zcb_zcmp_zcmt@mabi=ilp32e
+        Candidate multilib: rv32ec_zmmul/ilp32e;@march=rv32ec_zmmul@mabi=ilp32e
+        Candidate multilib: rv32e_zmmul_zca_zcb_zcmp_zcmt/ilp32e;@march=rv32e_zmmul_zca_zcb_zcmp_zcmt@mabi=ilp32e
+        Candidate multilib: rv32eac/ilp32e;@march=rv32eac@mabi=ilp32e
+        Candidate multilib: rv32ea_zca_zcb_zcmp_zcmt/ilp32e;@march=rv32ea_zca_zcb_zcmp_zcmt@mabi=ilp32e
+        Candidate multilib: rv32emc/ilp32e;@march=rv32emc@mabi=ilp32e
+        Candidate multilib: rv32em_zca_zcb_zcmp_zcmt/ilp32e;@march=rv32em_zca_zcb_zcmp_zcmt@mabi=ilp32e
+        Candidate multilib: rv32emac/ilp32e;@march=rv32emac@mabi=ilp32e
+        Candidate multilib: rv32ema_zca_zcb_zcmp_zcmt/ilp32e;@march=rv32ema_zca_zcb_zcmp_zcmt@mabi=ilp32e
+        Candidate multilib: rv32i_zca_zcb_zcmp_zcmt/ilp32;@march=rv32i_zca_zcb_zcmp_zcmt@mabi=ilp32
+        Candidate multilib: rv32im_zca_zcb_zcmp_zcmt/ilp32;@march=rv32im_zca_zcb_zcmp_zcmt@mabi=ilp32
+        Candidate multilib: rv32i_zmmul_zca_zcb_zcmp_zcmt/ilp32;@march=rv32i_zmmul_zca_zcb_zcmp_zcmt@mabi=ilp32
+        Candidate multilib: rv32ic/ilp32;@march=rv32ic@mabi=ilp32
+        Candidate multilib: rv32ic_zmmul/ilp32;@march=rv32ic_zmmul@mabi=ilp32
+        Candidate multilib: rv32imc/ilp32;@march=rv32imc@mabi=ilp32
+        Candidate multilib: rv32iac/ilp32;@march=rv32iac@mabi=ilp32
+        Candidate multilib: rv32ia_zca_zcb_zcmp_zcmt/ilp32;@march=rv32ia_zca_zcb_zcmp_zcmt@mabi=ilp32
+        Candidate multilib: rv32imac/ilp32;@march=rv32imac@mabi=ilp32
+        Candidate multilib: rv32imac_xxldsp/ilp32;@march=rv32imac_xxldsp@mabi=ilp32
+        Candidate multilib: rv32imac_zba_zbb_zbc_zbs/ilp32;@march=rv32imac_zba_zbb_zbc_zbs@mabi=ilp32
+        Candidate multilib: rv32ima_zca_zcb_zcmp_zcmt/ilp32;@march=rv32ima_zca_zcb_zcmp_zcmt@mabi=ilp32
+        Candidate multilib: rv32ima_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs/ilp32;@march=rv32ima_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=ilp32
+        Candidate multilib: rv32imafc/ilp32f;@march=rv32imafc@mabi=ilp32f
+        Candidate multilib: rv32imafc_xxldsp/ilp32f;@march=rv32imafc_xxldsp@mabi=ilp32f
+        Candidate multilib: rv32imafc_zba_zbb_zbc_zbs/ilp32f;@march=rv32imafc_zba_zbb_zbc_zbs@mabi=ilp32f
+        Candidate multilib: rv32imafc_zp052b/ilp32f;@march=rv32imafc_zp052b@mabi=ilp32f
+        Candidate multilib: rv32imafc_zp052b_xandes/ilp32f;@march=rv32imafc_zp052b_xandes@mabi=ilp32f
+        Candidate multilib: rv32imaf_zca_zcb_zcf_zcmp_zcmt/ilp32f;@march=rv32imaf_zca_zcb_zcf_zcmp_zcmt@mabi=ilp32f
+        Candidate multilib: rv32imaf_zca_zcb_zcf_zcmp_zcmt_zba_zbb_zbc_zbs/ilp32f;@march=rv32imaf_zca_zcb_zcf_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=ilp32f
+        Candidate multilib: rv32imafdc/ilp32d;@march=rv32imafdc@mabi=ilp32d
+        Candidate multilib: rv32imafdc_xxldsp/ilp32d;@march=rv32imafdc_xxldsp@mabi=ilp32d
+        Candidate multilib: rv32imafdc_zba_zbb_zbc_zbs/ilp32d;@march=rv32imafdc_zba_zbb_zbc_zbs@mabi=ilp32d
+        Candidate multilib: rv32imafdc_zp052b/ilp32d;@march=rv32imafdc_zp052b@mabi=ilp32d
+        Candidate multilib: rv32imafdc_zp052b_xandes/ilp32d;@march=rv32imafdc_zp052b_xandes@mabi=ilp32d
+        Candidate multilib: rv32imafd_zca_zcb_zcd_zcf/ilp32d;@march=rv32imafd_zca_zcb_zcd_zcf@mabi=ilp32d
+        Candidate multilib: rv32imafd_zca_zcb_zcd_zcf_xxldsp/ilp32d;@march=rv32imafd_zca_zcb_zcd_zcf_xxldsp@mabi=ilp32d
+        Candidate multilib: rv32imafd_zca_zcb_zcd_zcf_zba_zbb_zbc_zbs/ilp32d;@march=rv32imafd_zca_zcb_zcd_zcf_zba_zbb_zbc_zbs@mabi=ilp32d
+        Candidate multilib: rv32imafd_zca_zcb_zcf_zcmp_zcmt/ilp32d;@march=rv32imafd_zca_zcb_zcf_zcmp_zcmt@mabi=ilp32d
+        Candidate multilib: rv32imafd_zca_zcb_zcf_zcmp_zcmt_zba_zbb_zbc_zbs/ilp32d;@march=rv32imafd_zca_zcb_zcf_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=ilp32d
+        Candidate multilib: rv64ima_zca_zcb_zcmp_zcmt/lp64;@march=rv64ima_zca_zcb_zcmp_zcmt@mabi=lp64
+        Candidate multilib: rv64ima_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs/lp64;@march=rv64ima_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=lp64
+        Candidate multilib: rv64imac/lp64;@march=rv64imac@mabi=lp64
+        Candidate multilib: rv64imac_zba_zbb_zbc_zbs/lp64;@march=rv64imac_zba_zbb_zbc_zbs@mabi=lp64
+        Candidate multilib: rv64imafc/lp64f;@march=rv64imafc@mabi=lp64f
+        Candidate multilib: rv64imafc_zba_zbb_zbc_zbs/lp64f;@march=rv64imafc_zba_zbb_zbc_zbs@mabi=lp64f
+        Candidate multilib: rv64imaf_zca_zcb_zcmp_zcmt/lp64f;@march=rv64imaf_zca_zcb_zcmp_zcmt@mabi=lp64f
+        Candidate multilib: rv64imaf_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs/lp64f;@march=rv64imaf_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=lp64f
+        Candidate multilib: rv64imafdc/lp64d;@march=rv64imafdc@mabi=lp64d
+        Candidate multilib: rv64imafd_zca_zcb_zcd/lp64d;@march=rv64imafd_zca_zcb_zcd@mabi=lp64d
+        Candidate multilib: rv64imafd_zca_zcb_zcd_zba_zbb_zbc_zbs/lp64d;@march=rv64imafd_zca_zcb_zcd_zba_zbb_zbc_zbs@mabi=lp64d
+        Candidate multilib: rv64imafd_zca_zcb_zcmp_zcmt/lp64d;@march=rv64imafd_zca_zcb_zcmp_zcmt@mabi=lp64d
+        Candidate multilib: rv64imafd_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs/lp64d;@march=rv64imafd_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=lp64d
+        Candidate multilib: rv64imafdc_zba_zbb_zbc_zbs/lp64d;@march=rv64imafdc_zba_zbb_zbc_zbs@mabi=lp64d
+        Candidate multilib: rv64imafdv/lp64d;@march=rv64imafdv@mabi=lp64d
+        Candidate multilib: rv64imafdcv/lp64d;@march=rv64imafdcv@mabi=lp64d
+        Candidate multilib: rv64gv/lp64d;@march=rv64gv@mabi=lp64d
+        Candidate multilib: rv64gcv/lp64d;@march=rv64gcv@mabi=lp64d
+        Selected multilib: rv64imafdc/lp64d;@i@m@a@f@d@c@zicsr@m64@mabi=lp64d
+         "/opt/zcc-toolchain/3.2.5/.bin/ld.lld" --sysroot=/opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf -m elf64lriscv -X --no-rosegment -plugin-opt=-target-abi=lp64d /opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o CMakeFiles/cmTC_dd01a.dir/CMakeCCompilerABI.c.obj -L/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/rv64imafdc/lp64d -L/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/size -L/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d -L/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv32-unknown-elf/lib/rv64imafdc/lp64d/size -L/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv32-unknown-elf/lib/rv64imafdc/lp64d -L/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0 -L/opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/lib/size -L/opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/lib --start-group -lc -lgloss --end-group /opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d/size/libclang_rt.builtins.a /opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/lib/ldscripts/elf64lriscv.x -o cmTC_dd01a
+        gmake[1]: Leaving directory '/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-aDpRTv'
         
       exitCode: 0
   -
@@ -99,21 +843,21 @@ events:
     backtrace:
       - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
       - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:31 (project)"
+      - "CMakeLists.txt:16 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
           add: [/opt/riscv/riscv64-unknown-elf/include]
           add: [.]
-          add: [/opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/include]
-          add: [/opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/include-fixed]
+          add: [/opt/zcc-toolchain/3.2.5/lib/clang/3.2.5/include]
+          add: [/opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/include]
         end of search list found
         collapse include dir [/opt/riscv/riscv64-unknown-elf/include] ==> [/opt/riscv/riscv64-unknown-elf/include]
         skipping relative include dir [.]
-        collapse include dir [/opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/include] ==> [/opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/include]
-        collapse include dir [/opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/include-fixed] ==> [/opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/include-fixed]
-        implicit include dirs: [/opt/riscv/riscv64-unknown-elf/include;/opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/include;/opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/include-fixed]
+        collapse include dir [/opt/zcc-toolchain/3.2.5/lib/clang/3.2.5/include] ==> [/opt/zcc-toolchain/3.2.5/lib/clang/3.2.5/include]
+        collapse include dir [/opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/include] ==> [/opt/zcc-toolchain/3.2.5/riscv64-unknown-elf/include]
+        implicit include dirs: [/opt/riscv/riscv64-unknown-elf/include;/opt/zcc-toolchain/3.2.5/lib/clang/3.2.5/include;/opt/zcc-toolchain/3.2.5/riscv64-unknown-elf/include]
       
       
   -
@@ -121,58 +865,323 @@ events:
     backtrace:
       - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
       - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:31 (project)"
+      - "CMakeLists.txt:16 (project)"
     message: |
       Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(riscv64-unknown-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-C5EHU4']
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-aDpRTv']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ef210/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_ef210.dir/build.make CMakeFiles/cmTC_ef210.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-C5EHU4']
-        ignore line: [Building C object CMakeFiles/cmTC_ef210.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf   -v -o CMakeFiles/cmTC_ef210.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
-        ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/opt/riscv/bin/riscv64-unknown-elf-gcc]
-        ignore line: [Target: riscv64-unknown-elf]
-        ignore line: [Configured with: /home/gtly/riscv-gnu-toolchain/gcc/configure --target=riscv64-unknown-elf --prefix=/opt/riscv --disable-shared --disable-threads --enable-languages=c c++ --with-pkgversion=g04696df0963 --with-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/riscv/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --disable-tm-clone-registry --src=.././gcc --enable-multilib --with-abi=lp64d --with-arch=rv64gc --with-tune=rocket --with-isa-spec=20191213 'CFLAGS_FOR_TARGET=-Os    -mcmodel=medlow' 'CXXFLAGS_FOR_TARGET=-Os    -mcmodel=medlow']
-        ignore line: [Thread model: single]
-        ignore line: [Supported LTO compression algorithms: zlib]
-        ignore line: [gcc version 14.2.0 (g04696df0963) ]
-        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/riscv/riscv64-unknown-elf' '-v' '-o' 'CMakeFiles/cmTC_ef210.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=rocket' '-march=rv64imafdc_zicsr_zifencei' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_ef210.dir/']
-        ignore line: [ /opt/riscv/libexec/gcc/riscv64-unknown-elf/14.2.0/cc1 -quiet -v -imultilib . -isysroot /opt/riscv/riscv64-unknown-elf /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ef210.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=rocket -march=rv64imafdc_zicsr_zifencei -mabi=lp64d -misa-spec=20191213 -march=rv64imafdc_zicsr_zifencei -version -o /tmp/cce3QkRJ.s]
-        ignore line: [GNU C17 (g04696df0963) version 14.2.0 (riscv64-unknown-elf)]
-        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version none]
-        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dd01a/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_dd01a.dir/build.make CMakeFiles/cmTC_dd01a.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-aDpRTv']
+        ignore line: [Building C object CMakeFiles/cmTC_dd01a.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/opt/zcc-toolchain/3.2.5/bin/zcc   -v -MD -MT CMakeFiles/cmTC_dd01a.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_dd01a.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_dd01a.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Terapines LTD ZCC Pro 3.2.5 (296d9e548a76f86e6da2e6f59bf3074579d2c89d) based on LLVM 18.1.0]
+        ignore line: [Target: riscv64-unknown-unknown-elf]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /opt/zcc-toolchain/3.2.5/.bin]
+        ignore line: [Protection: enable]
+        ignore line: [Found candidate GCC installation: /opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv32-unknown-unknown-elf/11.1.0]
+        ignore line: [Found candidate GCC installation: /opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0]
+        ignore line: [Selected GCC installation: /opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0]
+        ignore line: [Candidate multilib: rv32ec/ilp32e]
+        ignore line: [@march=rv32ec@mabi=ilp32e]
+        ignore line: [Candidate multilib: rv32e_zca_zcb_zcmp_zcmt/ilp32e]
+        ignore line: [@march=rv32e_zca_zcb_zcmp_zcmt@mabi=ilp32e]
+        ignore line: [Candidate multilib: rv32ec_zmmul/ilp32e]
+        ignore line: [@march=rv32ec_zmmul@mabi=ilp32e]
+        ignore line: [Candidate multilib: rv32e_zmmul_zca_zcb_zcmp_zcmt/ilp32e]
+        ignore line: [@march=rv32e_zmmul_zca_zcb_zcmp_zcmt@mabi=ilp32e]
+        ignore line: [Candidate multilib: rv32eac/ilp32e]
+        ignore line: [@march=rv32eac@mabi=ilp32e]
+        ignore line: [Candidate multilib: rv32ea_zca_zcb_zcmp_zcmt/ilp32e]
+        ignore line: [@march=rv32ea_zca_zcb_zcmp_zcmt@mabi=ilp32e]
+        ignore line: [Candidate multilib: rv32emc/ilp32e]
+        ignore line: [@march=rv32emc@mabi=ilp32e]
+        ignore line: [Candidate multilib: rv32em_zca_zcb_zcmp_zcmt/ilp32e]
+        ignore line: [@march=rv32em_zca_zcb_zcmp_zcmt@mabi=ilp32e]
+        ignore line: [Candidate multilib: rv32emac/ilp32e]
+        ignore line: [@march=rv32emac@mabi=ilp32e]
+        ignore line: [Candidate multilib: rv32ema_zca_zcb_zcmp_zcmt/ilp32e]
+        ignore line: [@march=rv32ema_zca_zcb_zcmp_zcmt@mabi=ilp32e]
+        ignore line: [Candidate multilib: rv32i_zca_zcb_zcmp_zcmt/ilp32]
+        ignore line: [@march=rv32i_zca_zcb_zcmp_zcmt@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32im_zca_zcb_zcmp_zcmt/ilp32]
+        ignore line: [@march=rv32im_zca_zcb_zcmp_zcmt@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32i_zmmul_zca_zcb_zcmp_zcmt/ilp32]
+        ignore line: [@march=rv32i_zmmul_zca_zcb_zcmp_zcmt@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32ic/ilp32]
+        ignore line: [@march=rv32ic@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32ic_zmmul/ilp32]
+        ignore line: [@march=rv32ic_zmmul@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32imc/ilp32]
+        ignore line: [@march=rv32imc@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32iac/ilp32]
+        ignore line: [@march=rv32iac@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32ia_zca_zcb_zcmp_zcmt/ilp32]
+        ignore line: [@march=rv32ia_zca_zcb_zcmp_zcmt@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32imac/ilp32]
+        ignore line: [@march=rv32imac@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32imac_xxldsp/ilp32]
+        ignore line: [@march=rv32imac_xxldsp@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32imac_zba_zbb_zbc_zbs/ilp32]
+        ignore line: [@march=rv32imac_zba_zbb_zbc_zbs@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32ima_zca_zcb_zcmp_zcmt/ilp32]
+        ignore line: [@march=rv32ima_zca_zcb_zcmp_zcmt@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32ima_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs/ilp32]
+        ignore line: [@march=rv32ima_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32imafc/ilp32f]
+        ignore line: [@march=rv32imafc@mabi=ilp32f]
+        ignore line: [Candidate multilib: rv32imafc_xxldsp/ilp32f]
+        ignore line: [@march=rv32imafc_xxldsp@mabi=ilp32f]
+        ignore line: [Candidate multilib: rv32imafc_zba_zbb_zbc_zbs/ilp32f]
+        ignore line: [@march=rv32imafc_zba_zbb_zbc_zbs@mabi=ilp32f]
+        ignore line: [Candidate multilib: rv32imafc_zp052b/ilp32f]
+        ignore line: [@march=rv32imafc_zp052b@mabi=ilp32f]
+        ignore line: [Candidate multilib: rv32imafc_zp052b_xandes/ilp32f]
+        ignore line: [@march=rv32imafc_zp052b_xandes@mabi=ilp32f]
+        ignore line: [Candidate multilib: rv32imaf_zca_zcb_zcf_zcmp_zcmt/ilp32f]
+        ignore line: [@march=rv32imaf_zca_zcb_zcf_zcmp_zcmt@mabi=ilp32f]
+        ignore line: [Candidate multilib: rv32imaf_zca_zcb_zcf_zcmp_zcmt_zba_zbb_zbc_zbs/ilp32f]
+        ignore line: [@march=rv32imaf_zca_zcb_zcf_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=ilp32f]
+        ignore line: [Candidate multilib: rv32imafdc/ilp32d]
+        ignore line: [@march=rv32imafdc@mabi=ilp32d]
+        ignore line: [Candidate multilib: rv32imafdc_xxldsp/ilp32d]
+        ignore line: [@march=rv32imafdc_xxldsp@mabi=ilp32d]
+        ignore line: [Candidate multilib: rv32imafdc_zba_zbb_zbc_zbs/ilp32d]
+        ignore line: [@march=rv32imafdc_zba_zbb_zbc_zbs@mabi=ilp32d]
+        ignore line: [Candidate multilib: rv32imafdc_zp052b/ilp32d]
+        ignore line: [@march=rv32imafdc_zp052b@mabi=ilp32d]
+        ignore line: [Candidate multilib: rv32imafdc_zp052b_xandes/ilp32d]
+        ignore line: [@march=rv32imafdc_zp052b_xandes@mabi=ilp32d]
+        ignore line: [Candidate multilib: rv32imafd_zca_zcb_zcd_zcf/ilp32d]
+        ignore line: [@march=rv32imafd_zca_zcb_zcd_zcf@mabi=ilp32d]
+        ignore line: [Candidate multilib: rv32imafd_zca_zcb_zcd_zcf_xxldsp/ilp32d]
+        ignore line: [@march=rv32imafd_zca_zcb_zcd_zcf_xxldsp@mabi=ilp32d]
+        ignore line: [Candidate multilib: rv32imafd_zca_zcb_zcd_zcf_zba_zbb_zbc_zbs/ilp32d]
+        ignore line: [@march=rv32imafd_zca_zcb_zcd_zcf_zba_zbb_zbc_zbs@mabi=ilp32d]
+        ignore line: [Candidate multilib: rv32imafd_zca_zcb_zcf_zcmp_zcmt/ilp32d]
+        ignore line: [@march=rv32imafd_zca_zcb_zcf_zcmp_zcmt@mabi=ilp32d]
+        ignore line: [Candidate multilib: rv32imafd_zca_zcb_zcf_zcmp_zcmt_zba_zbb_zbc_zbs/ilp32d]
+        ignore line: [@march=rv32imafd_zca_zcb_zcf_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=ilp32d]
+        ignore line: [Candidate multilib: rv64ima_zca_zcb_zcmp_zcmt/lp64]
+        ignore line: [@march=rv64ima_zca_zcb_zcmp_zcmt@mabi=lp64]
+        ignore line: [Candidate multilib: rv64ima_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs/lp64]
+        ignore line: [@march=rv64ima_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=lp64]
+        ignore line: [Candidate multilib: rv64imac/lp64]
+        ignore line: [@march=rv64imac@mabi=lp64]
+        ignore line: [Candidate multilib: rv64imac_zba_zbb_zbc_zbs/lp64]
+        ignore line: [@march=rv64imac_zba_zbb_zbc_zbs@mabi=lp64]
+        ignore line: [Candidate multilib: rv64imafc/lp64f]
+        ignore line: [@march=rv64imafc@mabi=lp64f]
+        ignore line: [Candidate multilib: rv64imafc_zba_zbb_zbc_zbs/lp64f]
+        ignore line: [@march=rv64imafc_zba_zbb_zbc_zbs@mabi=lp64f]
+        ignore line: [Candidate multilib: rv64imaf_zca_zcb_zcmp_zcmt/lp64f]
+        ignore line: [@march=rv64imaf_zca_zcb_zcmp_zcmt@mabi=lp64f]
+        ignore line: [Candidate multilib: rv64imaf_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs/lp64f]
+        ignore line: [@march=rv64imaf_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=lp64f]
+        ignore line: [Candidate multilib: rv64imafdc/lp64d]
+        ignore line: [@march=rv64imafdc@mabi=lp64d]
+        ignore line: [Candidate multilib: rv64imafd_zca_zcb_zcd/lp64d]
+        ignore line: [@march=rv64imafd_zca_zcb_zcd@mabi=lp64d]
+        ignore line: [Candidate multilib: rv64imafd_zca_zcb_zcd_zba_zbb_zbc_zbs/lp64d]
+        ignore line: [@march=rv64imafd_zca_zcb_zcd_zba_zbb_zbc_zbs@mabi=lp64d]
+        ignore line: [Candidate multilib: rv64imafd_zca_zcb_zcmp_zcmt/lp64d]
+        ignore line: [@march=rv64imafd_zca_zcb_zcmp_zcmt@mabi=lp64d]
+        ignore line: [Candidate multilib: rv64imafd_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs/lp64d]
+        ignore line: [@march=rv64imafd_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=lp64d]
+        ignore line: [Candidate multilib: rv64imafdc_zba_zbb_zbc_zbs/lp64d]
+        ignore line: [@march=rv64imafdc_zba_zbb_zbc_zbs@mabi=lp64d]
+        ignore line: [Candidate multilib: rv64imafdv/lp64d]
+        ignore line: [@march=rv64imafdv@mabi=lp64d]
+        ignore line: [Candidate multilib: rv64imafdcv/lp64d]
+        ignore line: [@march=rv64imafdcv@mabi=lp64d]
+        ignore line: [Candidate multilib: rv64gv/lp64d]
+        ignore line: [@march=rv64gv@mabi=lp64d]
+        ignore line: [Candidate multilib: rv64gcv/lp64d]
+        ignore line: [@march=rv64gcv@mabi=lp64d]
+        ignore line: [Selected multilib: rv64imafdc/lp64d]
+        ignore line: [@i@m@a@f@d@c@zicsr@m64@mabi=lp64d]
+        ignore line: [ (in-process)]
+        ignore line: [ "/opt/zcc-toolchain/3.2.5/.bin/llvm" "zcc" -cc1 -triple riscv64-unknown-unknown-elf -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -nostdsysteminc -target-cpu generic-rv64 -target-feature +m -target-feature +a -target-feature +f -target-feature +d -target-feature +c -target-feature +zicsr -target-feature +experimental -target-feature +relax -target-abi lp64d -msmall-data-limit 8 -debugger-tuning=gdb -fdebug-compilation-dir=/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-aDpRTv -v -fcoverage-compilation-dir=/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-aDpRTv -resource-dir /opt/zcc-toolchain/3.2.5/lib/clang/3.2.5 -dependency-file CMakeFiles/cmTC_dd01a.dir/CMakeCCompilerABI.c.obj.d -MT CMakeFiles/cmTC_dd01a.dir/CMakeCCompilerABI.c.obj -sys-header-deps -isysroot /opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf -c-isystem /opt/riscv/riscv64-unknown-elf/include -c-isystem /opt/riscv/riscv64-unknown-elf/include -c-isystem . -internal-isystem /opt/zcc-toolchain/3.2.5/lib/clang/3.2.5/include -internal-isystem /opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/include -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -o CMakeFiles/cmTC_dd01a.dir/CMakeCCompilerABI.c.obj -x c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 3.2.5 based upon LLVM 3.2.5 default target riscv64-unknown-elf]
         ignore line: [ignoring duplicate directory "/opt/riscv/riscv64-unknown-elf/include"]
-        ignore line: [ignoring nonexistent directory "/opt/riscv/riscv64-unknown-elf/usr/local/include"]
-        ignore line: [ignoring duplicate directory "/opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/../../../../riscv64-unknown-elf/include"]
-        ignore line: [ignoring duplicate directory "/opt/riscv/riscv64-unknown-elf/include"]
+        ignore line: [ignoring duplicate directory "/opt/zcc-toolchain/3.2.5/lib/clang/3.2.5/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
         ignore line: [ /opt/riscv/riscv64-unknown-elf/include]
         ignore line: [ .]
-        ignore line: [ /opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/include]
-        ignore line: [ /opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/include-fixed]
+        ignore line: [ /opt/zcc-toolchain/3.2.5/lib/clang/3.2.5/include]
+        ignore line: [ /opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/include]
         ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: c43e0544b8fdcc646bbd5a22d3ad6890]
-        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/riscv/riscv64-unknown-elf' '-v' '-o' 'CMakeFiles/cmTC_ef210.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=rocket' '-march=rv64imafdc_zicsr_zifencei' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_ef210.dir/']
-        ignore line: [ /opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/../../../../riscv64-unknown-elf/bin/as -v --traditional-format -march=rv64imafdc_zicsr_zifencei -march=rv64imafdc_zicsr_zifencei -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_ef210.dir/CMakeCCompilerABI.c.obj /tmp/cce3QkRJ.s]
-        ignore line: [GNU assembler version 2.44 (riscv64-unknown-elf) using BFD version (GNU Binutils) 2.44]
-        ignore line: [COMPILER_PATH=/opt/riscv/libexec/gcc/riscv64-unknown-elf/14.2.0/:/opt/riscv/libexec/gcc/riscv64-unknown-elf/14.2.0/:/opt/riscv/libexec/gcc/riscv64-unknown-elf/:/opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/:/opt/riscv/lib/gcc/riscv64-unknown-elf/:/opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/../../../../riscv64-unknown-elf/bin/]
-        ignore line: [LIBRARY_PATH=/opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/:/opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/../../../../riscv64-unknown-elf/lib/:/opt/riscv/riscv64-unknown-elf/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/riscv/riscv64-unknown-elf' '-v' '-o' 'CMakeFiles/cmTC_ef210.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=rocket' '-march=rv64imafdc_zicsr_zifencei' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_ef210.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C static library libcmTC_ef210.a]
-        ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_ef210.dir/cmake_clean_target.cmake]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef210.dir/link.txt --verbose=1]
-        ignore line: [/opt/riscv/bin/riscv64-unknown-elf-ar qc libcmTC_ef210.a CMakeFiles/cmTC_ef210.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [/opt/riscv/bin/riscv64-unknown-elf-ranlib libcmTC_ef210.a]
-        ignore line: [gmake[1]: Leaving directory '/home/gtly/Repetition/libnn/build/CMakeFiles/CMakeScratch/TryCompile-C5EHU4']
-        ignore line: []
-        ignore line: []
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
+        ignore line: [Linking C executable cmTC_dd01a]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd01a.dir/link.txt --verbose=1]
+        ignore line: [/opt/zcc-toolchain/3.2.5/bin/zcc  -v CMakeFiles/cmTC_dd01a.dir/CMakeCCompilerABI.c.obj -o cmTC_dd01a ]
+        ignore line: [Terapines LTD ZCC Pro 3.2.5 (296d9e548a76f86e6da2e6f59bf3074579d2c89d) based on LLVM 18.1.0]
+        ignore line: [Target: riscv64-unknown-unknown-elf]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /opt/zcc-toolchain/3.2.5/.bin]
+        ignore line: [Protection: enable]
+        ignore line: [Found candidate GCC installation: /opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv32-unknown-unknown-elf/11.1.0]
+        ignore line: [Found candidate GCC installation: /opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0]
+        ignore line: [Selected GCC installation: /opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0]
+        ignore line: [Candidate multilib: rv32ec/ilp32e]
+        ignore line: [@march=rv32ec@mabi=ilp32e]
+        ignore line: [Candidate multilib: rv32e_zca_zcb_zcmp_zcmt/ilp32e]
+        ignore line: [@march=rv32e_zca_zcb_zcmp_zcmt@mabi=ilp32e]
+        ignore line: [Candidate multilib: rv32ec_zmmul/ilp32e]
+        ignore line: [@march=rv32ec_zmmul@mabi=ilp32e]
+        ignore line: [Candidate multilib: rv32e_zmmul_zca_zcb_zcmp_zcmt/ilp32e]
+        ignore line: [@march=rv32e_zmmul_zca_zcb_zcmp_zcmt@mabi=ilp32e]
+        ignore line: [Candidate multilib: rv32eac/ilp32e]
+        ignore line: [@march=rv32eac@mabi=ilp32e]
+        ignore line: [Candidate multilib: rv32ea_zca_zcb_zcmp_zcmt/ilp32e]
+        ignore line: [@march=rv32ea_zca_zcb_zcmp_zcmt@mabi=ilp32e]
+        ignore line: [Candidate multilib: rv32emc/ilp32e]
+        ignore line: [@march=rv32emc@mabi=ilp32e]
+        ignore line: [Candidate multilib: rv32em_zca_zcb_zcmp_zcmt/ilp32e]
+        ignore line: [@march=rv32em_zca_zcb_zcmp_zcmt@mabi=ilp32e]
+        ignore line: [Candidate multilib: rv32emac/ilp32e]
+        ignore line: [@march=rv32emac@mabi=ilp32e]
+        ignore line: [Candidate multilib: rv32ema_zca_zcb_zcmp_zcmt/ilp32e]
+        ignore line: [@march=rv32ema_zca_zcb_zcmp_zcmt@mabi=ilp32e]
+        ignore line: [Candidate multilib: rv32i_zca_zcb_zcmp_zcmt/ilp32]
+        ignore line: [@march=rv32i_zca_zcb_zcmp_zcmt@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32im_zca_zcb_zcmp_zcmt/ilp32]
+        ignore line: [@march=rv32im_zca_zcb_zcmp_zcmt@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32i_zmmul_zca_zcb_zcmp_zcmt/ilp32]
+        ignore line: [@march=rv32i_zmmul_zca_zcb_zcmp_zcmt@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32ic/ilp32]
+        ignore line: [@march=rv32ic@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32ic_zmmul/ilp32]
+        ignore line: [@march=rv32ic_zmmul@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32imc/ilp32]
+        ignore line: [@march=rv32imc@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32iac/ilp32]
+        ignore line: [@march=rv32iac@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32ia_zca_zcb_zcmp_zcmt/ilp32]
+        ignore line: [@march=rv32ia_zca_zcb_zcmp_zcmt@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32imac/ilp32]
+        ignore line: [@march=rv32imac@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32imac_xxldsp/ilp32]
+        ignore line: [@march=rv32imac_xxldsp@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32imac_zba_zbb_zbc_zbs/ilp32]
+        ignore line: [@march=rv32imac_zba_zbb_zbc_zbs@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32ima_zca_zcb_zcmp_zcmt/ilp32]
+        ignore line: [@march=rv32ima_zca_zcb_zcmp_zcmt@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32ima_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs/ilp32]
+        ignore line: [@march=rv32ima_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=ilp32]
+        ignore line: [Candidate multilib: rv32imafc/ilp32f]
+        ignore line: [@march=rv32imafc@mabi=ilp32f]
+        ignore line: [Candidate multilib: rv32imafc_xxldsp/ilp32f]
+        ignore line: [@march=rv32imafc_xxldsp@mabi=ilp32f]
+        ignore line: [Candidate multilib: rv32imafc_zba_zbb_zbc_zbs/ilp32f]
+        ignore line: [@march=rv32imafc_zba_zbb_zbc_zbs@mabi=ilp32f]
+        ignore line: [Candidate multilib: rv32imafc_zp052b/ilp32f]
+        ignore line: [@march=rv32imafc_zp052b@mabi=ilp32f]
+        ignore line: [Candidate multilib: rv32imafc_zp052b_xandes/ilp32f]
+        ignore line: [@march=rv32imafc_zp052b_xandes@mabi=ilp32f]
+        ignore line: [Candidate multilib: rv32imaf_zca_zcb_zcf_zcmp_zcmt/ilp32f]
+        ignore line: [@march=rv32imaf_zca_zcb_zcf_zcmp_zcmt@mabi=ilp32f]
+        ignore line: [Candidate multilib: rv32imaf_zca_zcb_zcf_zcmp_zcmt_zba_zbb_zbc_zbs/ilp32f]
+        ignore line: [@march=rv32imaf_zca_zcb_zcf_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=ilp32f]
+        ignore line: [Candidate multilib: rv32imafdc/ilp32d]
+        ignore line: [@march=rv32imafdc@mabi=ilp32d]
+        ignore line: [Candidate multilib: rv32imafdc_xxldsp/ilp32d]
+        ignore line: [@march=rv32imafdc_xxldsp@mabi=ilp32d]
+        ignore line: [Candidate multilib: rv32imafdc_zba_zbb_zbc_zbs/ilp32d]
+        ignore line: [@march=rv32imafdc_zba_zbb_zbc_zbs@mabi=ilp32d]
+        ignore line: [Candidate multilib: rv32imafdc_zp052b/ilp32d]
+        ignore line: [@march=rv32imafdc_zp052b@mabi=ilp32d]
+        ignore line: [Candidate multilib: rv32imafdc_zp052b_xandes/ilp32d]
+        ignore line: [@march=rv32imafdc_zp052b_xandes@mabi=ilp32d]
+        ignore line: [Candidate multilib: rv32imafd_zca_zcb_zcd_zcf/ilp32d]
+        ignore line: [@march=rv32imafd_zca_zcb_zcd_zcf@mabi=ilp32d]
+        ignore line: [Candidate multilib: rv32imafd_zca_zcb_zcd_zcf_xxldsp/ilp32d]
+        ignore line: [@march=rv32imafd_zca_zcb_zcd_zcf_xxldsp@mabi=ilp32d]
+        ignore line: [Candidate multilib: rv32imafd_zca_zcb_zcd_zcf_zba_zbb_zbc_zbs/ilp32d]
+        ignore line: [@march=rv32imafd_zca_zcb_zcd_zcf_zba_zbb_zbc_zbs@mabi=ilp32d]
+        ignore line: [Candidate multilib: rv32imafd_zca_zcb_zcf_zcmp_zcmt/ilp32d]
+        ignore line: [@march=rv32imafd_zca_zcb_zcf_zcmp_zcmt@mabi=ilp32d]
+        ignore line: [Candidate multilib: rv32imafd_zca_zcb_zcf_zcmp_zcmt_zba_zbb_zbc_zbs/ilp32d]
+        ignore line: [@march=rv32imafd_zca_zcb_zcf_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=ilp32d]
+        ignore line: [Candidate multilib: rv64ima_zca_zcb_zcmp_zcmt/lp64]
+        ignore line: [@march=rv64ima_zca_zcb_zcmp_zcmt@mabi=lp64]
+        ignore line: [Candidate multilib: rv64ima_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs/lp64]
+        ignore line: [@march=rv64ima_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=lp64]
+        ignore line: [Candidate multilib: rv64imac/lp64]
+        ignore line: [@march=rv64imac@mabi=lp64]
+        ignore line: [Candidate multilib: rv64imac_zba_zbb_zbc_zbs/lp64]
+        ignore line: [@march=rv64imac_zba_zbb_zbc_zbs@mabi=lp64]
+        ignore line: [Candidate multilib: rv64imafc/lp64f]
+        ignore line: [@march=rv64imafc@mabi=lp64f]
+        ignore line: [Candidate multilib: rv64imafc_zba_zbb_zbc_zbs/lp64f]
+        ignore line: [@march=rv64imafc_zba_zbb_zbc_zbs@mabi=lp64f]
+        ignore line: [Candidate multilib: rv64imaf_zca_zcb_zcmp_zcmt/lp64f]
+        ignore line: [@march=rv64imaf_zca_zcb_zcmp_zcmt@mabi=lp64f]
+        ignore line: [Candidate multilib: rv64imaf_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs/lp64f]
+        ignore line: [@march=rv64imaf_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=lp64f]
+        ignore line: [Candidate multilib: rv64imafdc/lp64d]
+        ignore line: [@march=rv64imafdc@mabi=lp64d]
+        ignore line: [Candidate multilib: rv64imafd_zca_zcb_zcd/lp64d]
+        ignore line: [@march=rv64imafd_zca_zcb_zcd@mabi=lp64d]
+        ignore line: [Candidate multilib: rv64imafd_zca_zcb_zcd_zba_zbb_zbc_zbs/lp64d]
+        ignore line: [@march=rv64imafd_zca_zcb_zcd_zba_zbb_zbc_zbs@mabi=lp64d]
+        ignore line: [Candidate multilib: rv64imafd_zca_zcb_zcmp_zcmt/lp64d]
+        ignore line: [@march=rv64imafd_zca_zcb_zcmp_zcmt@mabi=lp64d]
+        ignore line: [Candidate multilib: rv64imafd_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs/lp64d]
+        ignore line: [@march=rv64imafd_zca_zcb_zcmp_zcmt_zba_zbb_zbc_zbs@mabi=lp64d]
+        ignore line: [Candidate multilib: rv64imafdc_zba_zbb_zbc_zbs/lp64d]
+        ignore line: [@march=rv64imafdc_zba_zbb_zbc_zbs@mabi=lp64d]
+        ignore line: [Candidate multilib: rv64imafdv/lp64d]
+        ignore line: [@march=rv64imafdv@mabi=lp64d]
+        ignore line: [Candidate multilib: rv64imafdcv/lp64d]
+        ignore line: [@march=rv64imafdcv@mabi=lp64d]
+        ignore line: [Candidate multilib: rv64gv/lp64d]
+        ignore line: [@march=rv64gv@mabi=lp64d]
+        ignore line: [Candidate multilib: rv64gcv/lp64d]
+        ignore line: [@march=rv64gcv@mabi=lp64d]
+        ignore line: [Selected multilib: rv64imafdc/lp64d]
+        ignore line: [@i@m@a@f@d@c@zicsr@m64@mabi=lp64d]
+        link line: [ "/opt/zcc-toolchain/3.2.5/.bin/ld.lld" --sysroot=/opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf -m elf64lriscv -X --no-rosegment -plugin-opt=-target-abi=lp64d /opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o CMakeFiles/cmTC_dd01a.dir/CMakeCCompilerABI.c.obj -L/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/rv64imafdc/lp64d -L/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/size -L/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d -L/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv32-unknown-elf/lib/rv64imafdc/lp64d/size -L/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv32-unknown-elf/lib/rv64imafdc/lp64d -L/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0 -L/opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/lib/size -L/opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/lib --start-group -lc -lgloss --end-group /opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d/size/libclang_rt.builtins.a /opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/lib/ldscripts/elf64lriscv.x -o cmTC_dd01a]
+          arg [/opt/zcc-toolchain/3.2.5/.bin/ld.lld] ==> ignore
+          arg [--sysroot=/opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf64lriscv] ==> ignore
+          arg [-X] ==> ignore
+          arg [--no-rosegment] ==> ignore
+          arg [-plugin-opt=-target-abi=lp64d] ==> ignore
+          arg [/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o] ==> obj [/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o]
+          arg [CMakeFiles/cmTC_dd01a.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [-L/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/rv64imafdc/lp64d] ==> dir [/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/rv64imafdc/lp64d]
+          arg [-L/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/size] ==> dir [/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/size]
+          arg [-L/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d] ==> dir [/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d]
+          arg [-L/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv32-unknown-elf/lib/rv64imafdc/lp64d/size] ==> dir [/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv32-unknown-elf/lib/rv64imafdc/lp64d/size]
+          arg [-L/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv32-unknown-elf/lib/rv64imafdc/lp64d] ==> dir [/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv32-unknown-elf/lib/rv64imafdc/lp64d]
+          arg [-L/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0] ==> dir [/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0]
+          arg [-L/opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/lib/size] ==> dir [/opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/lib/size]
+          arg [-L/opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/lib] ==> dir [/opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/lib]
+          arg [--start-group] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgloss] ==> lib [gloss]
+          arg [--end-group] ==> ignore
+          arg [/opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d/size/libclang_rt.builtins.a] ==> lib [/opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d/size/libclang_rt.builtins.a]
+          arg [/opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/lib/ldscripts/elf64lriscv.x] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_dd01a] ==> ignore
+        remove lib [/opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d/size/libclang_rt.builtins.a]
+        collapse obj [/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o] ==> [/opt/zcc-toolchain/3.2.5/riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o]
+        collapse library dir [/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/rv64imafdc/lp64d] ==> [/opt/zcc-toolchain/3.2.5/lib/gcc/riscv64-unknown-unknown-elf/11.1.0/rv64imafdc/lp64d]
+        collapse library dir [/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/size] ==> [/opt/zcc-toolchain/3.2.5/riscv64-unknown-elf/lib/rv64imafdc/lp64d/size]
+        collapse library dir [/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d] ==> [/opt/zcc-toolchain/3.2.5/riscv64-unknown-elf/lib/rv64imafdc/lp64d]
+        collapse library dir [/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv32-unknown-elf/lib/rv64imafdc/lp64d/size] ==> [/opt/zcc-toolchain/3.2.5/riscv32-unknown-elf/lib/rv64imafdc/lp64d/size]
+        collapse library dir [/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0/../../../../riscv32-unknown-elf/lib/rv64imafdc/lp64d] ==> [/opt/zcc-toolchain/3.2.5/riscv32-unknown-elf/lib/rv64imafdc/lp64d]
+        collapse library dir [/opt/zcc-toolchain/3.2.5/.bin/../lib/gcc/riscv64-unknown-unknown-elf/11.1.0] ==> [/opt/zcc-toolchain/3.2.5/lib/gcc/riscv64-unknown-unknown-elf/11.1.0]
+        collapse library dir [/opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/lib/size] ==> [/opt/zcc-toolchain/3.2.5/riscv64-unknown-elf/lib/size]
+        collapse library dir [/opt/zcc-toolchain/3.2.5/.bin/../riscv64-unknown-elf/lib] ==> [/opt/zcc-toolchain/3.2.5/riscv64-unknown-elf/lib]
+        implicit libs: [c;gloss]
+        implicit objs: [/opt/zcc-toolchain/3.2.5/riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o]
+        implicit dirs: [/opt/zcc-toolchain/3.2.5/lib/gcc/riscv64-unknown-unknown-elf/11.1.0/rv64imafdc/lp64d;/opt/zcc-toolchain/3.2.5/riscv64-unknown-elf/lib/rv64imafdc/lp64d/size;/opt/zcc-toolchain/3.2.5/riscv64-unknown-elf/lib/rv64imafdc/lp64d;/opt/zcc-toolchain/3.2.5/riscv32-unknown-elf/lib/rv64imafdc/lp64d/size;/opt/zcc-toolchain/3.2.5/riscv32-unknown-elf/lib/rv64imafdc/lp64d;/opt/zcc-toolchain/3.2.5/lib/gcc/riscv64-unknown-unknown-elf/11.1.0;/opt/zcc-toolchain/3.2.5/riscv64-unknown-elf/lib/size;/opt/zcc-toolchain/3.2.5/riscv64-unknown-elf/lib]
         implicit fwks: []
       
       

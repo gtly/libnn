@@ -73,2731 +73,2731 @@ CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16.c.obj: CMak
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16.c.obj: /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16.c
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16.c
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16.c.i
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16.c.s
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c.obj: /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c.i
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_2buf.c.s
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c.obj: /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c.i
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s16_hp.c.s
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8.c.obj: /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s8.c
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s8.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s8.c
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s8.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s8.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8.c.i
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s8.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s8.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8.c.s
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c.obj: /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c.i
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_activate_s8_2buf.c.s
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_gelu_f32.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_gelu_f32.c.obj: /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_gelu_f32.c
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_gelu_f32.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_gelu_f32.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_gelu_f32.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_gelu_f32.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_gelu_f32.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_gelu_f32.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_gelu_f32.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_gelu_f32.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_gelu_f32.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_gelu_f32.c
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_gelu_f32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_gelu_f32.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_gelu_f32.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_gelu_f32.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_gelu_f32.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_gelu_f32.c.i
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_gelu_f32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_gelu_f32.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_gelu_f32.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_gelu_f32.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_gelu_f32.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_gelu_f32.c.s
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c.obj: /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c.i
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8.c.s
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c.obj: /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c.i
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_2buf.c.s
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c.obj: /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c.i
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_leaky_relu_s8_asym.c.s
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c.obj: /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c.i
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_prelu_s8_asym.c.s
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8.c.obj: /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_any_s8.c
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_any_s8.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_any_s8.c
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_any_s8.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_any_s8.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8.c.i
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_any_s8.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_any_s8.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8.c.s
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c.obj: /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c.i
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_any_s8_2buf.c.s
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16.c.obj: /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s16.c
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s16.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s16.c
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s16.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s16.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16.c.i
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s16.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s16.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16.c.s
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c.obj: /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c.i
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s16_2buf.c.s
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8.c.obj: /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s8.c
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s8.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s8.c
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s8.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s8.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8.c.i
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s8.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s8.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8.c.s
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c.obj: /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c.i
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_relu_s8_2buf.c.s
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c.obj: /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c.i
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_sigmoid_s8.c.s
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_f32.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_f32.c.obj: /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_tanh_f32.c
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_f32.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_f32.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_f32.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_f32.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_f32.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_tanh_f32.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_f32.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_f32.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_f32.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_tanh_f32.c
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_f32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_f32.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_tanh_f32.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_f32.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_tanh_f32.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_f32.c.i
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_f32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_f32.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_tanh_f32.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_f32.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_tanh_f32.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_f32.c.s
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_s8.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_s8.c.obj: /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_tanh_s8.c
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_s8.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_s8.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_s8.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_s8.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_s8.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_tanh_s8.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_s8.c.obj -MF CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_s8.c.obj.d -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_s8.c.obj -c /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_tanh_s8.c
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_s8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_s8.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_tanh_s8.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_s8.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_tanh_s8.c > CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_s8.c.i
 
 CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_s8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_s8.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_tanh_s8.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_s8.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ActivationFunctions/riscv_nn_tanh_s8.c -o CMakeFiles/test.dir/Source/ActivationFunctions/riscv_nn_tanh_s8.c.s
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym.c.obj: /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_add_s8_sym.c
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_add_s8_sym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_add_s8_sym.c
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_add_s8_sym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_add_s8_sym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym.c.i
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_add_s8_sym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_add_s8_sym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym.c.s
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c.obj: /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c.i
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_add_s8_sym_round.c.s
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c.obj: /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c.i
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s16_asym.c.s
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c.obj: /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c.i
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_add_s8_asym.c.s
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c.obj: /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c.i
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_addc_s8_asym.c.s
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c.obj: /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c.i
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_asym.c.s
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c.obj: /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c.i
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s16_s8_asym.c.s
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c.obj: /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c.i
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mul_s8_asym.c.s
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c.obj: /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c.i
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_mulc_s8_asym.c.s
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c.obj: /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c.i
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_rsubc_s8_asym.c.s
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c.obj: /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c.i
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_sub_s8_asym.c.s
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c.obj: /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c > CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c.i
 
 CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c -o CMakeFiles/test.dir/Source/BasicFunctions/riscv_nn_ew_subc_s8_asym.c.s
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c.obj: /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c.obj -MF CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c.obj.d -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c.obj -c /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c.obj -MF CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c.obj.d -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c.obj -c /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c > CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c > CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c.i
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_w.c.s
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c.obj: /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c.obj -MF CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c.obj.d -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c.obj -c /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c.obj -MF CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c.obj.d -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c.obj -c /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c > CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c > CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c.i
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_x.c.s
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c.obj: /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c.obj -MF CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c.obj.d -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c.obj -c /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c.obj -MF CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c.obj.d -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c.obj -c /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c > CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c > CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c.i
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_y.c.s
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c.obj: /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c.obj -MF CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c.obj.d -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c.obj -c /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c.obj -MF CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c.obj.d -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c.obj -c /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c > CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c > CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c.i
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_concate_s8_z.c.s
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c.obj: /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c.obj -MF CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c.obj.d -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c.obj -c /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c.obj -MF CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c.obj.d -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c.obj -c /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c > CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c > CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c.i
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_w.c.s
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c.obj: /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c.obj -MF CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c.obj.d -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c.obj -c /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c.obj -MF CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c.obj.d -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c.obj -c /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c > CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c > CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c.i
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_x.c.s
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c.obj: /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c.obj -MF CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c.obj.d -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c.obj -c /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c.obj -MF CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c.obj.d -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c.obj -c /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c > CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c > CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c.i
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_y.c.s
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c.obj: /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c.obj -MF CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c.obj.d -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c.obj -c /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c.obj -MF CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c.obj.d -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c.obj -c /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c > CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c > CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c.i
 
 CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c -o CMakeFiles/test.dir/Source/ConcatenationFunctions/riscv_nn_split_s8_z.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_bias_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s16_s8_sym_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_asym_bias_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sft_bias_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_bias_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_s8_s8_s8_sym_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_bias_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s16_s8_sym_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_bias_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_s8_s8_sym_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_bias_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1x1_HWC_u8_u8_s8_sym_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_1xn_HWC_s8_s8_s8_asym_bias_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s16_sft_bias_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s16_s16_s8_asym_bias_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_RGB_sym_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_bias_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s16_s8_sym_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sft_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_RGB_sym_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_asym_bias_any_dilated.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sft_bias_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_bias_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_s8_s8_s8_sym_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_bias_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_sym_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_RGB_sym_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_bias_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s8_s8_sym_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_RGB_sym_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_bias_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_u8_s8_sym_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s16_s16_s8_asym.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_wrapper_s8_s8_s8_asym.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_3x3_s8_s8_s8_asym_bias_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s16_s16_s8_asym_bias_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s16_s8_sym_bias_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_asym_bias_fast_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sft_bias_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_s8_s8_s8_sym_bias_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s16_s8_sym_bias_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_s8_s8_sym_bias_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_s8_sym_bias_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_u8_u8_u8_asym_bias_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_dw_HWC_wrapper_s8_s8_s8_asym.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_asym_bias_any.c.s
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c.obj: /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c.obj -MF CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c.obj.d -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c.obj -c /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c > CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c.i
 
 CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c -o CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_trans_HWC_s8_s8_s8_sym_bias_any.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s16_s16_s8_sft_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_mat_vec_s8_wt_converter.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s16_sft_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_s16_s8_asym_bias.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s16_wt_converter.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s16_s8_sym_fast.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_asym_bias.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sft_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_s8_s8_sym_fast.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_s8_wt_converter.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s16_s8_sym_fast.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_s8_s8_sym_fast.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_bias_fast.c.s
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c.obj: /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c.obj -MF CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c.obj.d -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c.obj -c /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c > CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c.i
 
 CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c -o CMakeFiles/test.dir/Source/FullyConnectedFunctions/riscv_nn_fc_u8_u8_s8_sym_fast.c.s
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c.obj: /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c.obj -MF CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c.obj.d -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c.obj -c /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c.obj -MF CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c.obj.d -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c.obj -c /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c > CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c > CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c.i
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_mat_mult_nt_t_s8.c.s
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_table.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_table.c.obj: /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_table.c
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_table.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_table.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_table.c.obj -MF CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_table.c.obj.d -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_table.c.obj -c /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_table.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_table.c.obj -MF CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_table.c.obj.d -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_table.c.obj -c /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_table.c
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_table.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_table.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_table.c > CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_table.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_table.c > CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_table.c.i
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_table.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_table.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_table.c -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_table.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_table.c -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_table.c.s
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c.obj: /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c.obj -MF CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c.obj.d -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c.obj -c /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c.obj -MF CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c.obj.d -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c.obj -c /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c > CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c > CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c.i
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s16.c.s
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c.obj: /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c.obj -MF CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c.obj.d -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c.obj -c /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c.obj -MF CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c.obj.d -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c.obj -c /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c > CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c > CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c.i
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8.c.s
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c.obj: /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c.obj -MF CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c.obj.d -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c.obj -c /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c.obj -MF CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c.obj.d -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c.obj -c /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c > CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c > CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c.i
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v2.c.s
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c.obj: /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c.obj -MF CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c.obj.d -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c.obj -c /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c.obj -MF CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c.obj.d -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c.obj -c /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c > CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c > CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c.i
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_s8_v3.c.s
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c.obj: /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c.obj -MF CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c.obj.d -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c.obj -c /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c.obj -MF CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c.obj.d -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c.obj -c /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c > CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c > CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c.i
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c -o CMakeFiles/test.dir/Source/NNSupportFunctions/riscv_nn_vec_mat_mult_t_svdf_s8.c.s
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c.obj: /home/gtly/Repetition/libnn/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c
 CMakeFiles/test.dir/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/test.dir/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c.obj -MF CMakeFiles/test.dir/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c.obj.d -o CMakeFiles/test.dir/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c.obj -c /home/gtly/Repetition/libnn/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c.obj -MF CMakeFiles/test.dir/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c.obj.d -o CMakeFiles/test.dir/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c.obj -c /home/gtly/Repetition/libnn/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c > CMakeFiles/test.dir/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c > CMakeFiles/test.dir/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c.i
 
 CMakeFiles/test.dir/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c -o CMakeFiles/test.dir/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c -o CMakeFiles/test.dir/Source/NNSupportFunctions/vec_mat_mult_acc_t_s8_s16.c.s
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c.obj: /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c.obj -MF CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c.obj.d -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c.obj -c /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c.obj -MF CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c.obj.d -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c.obj -c /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c > CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c > CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c.i
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s16_any_act.c.s
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c.obj: /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c.obj -MF CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c.obj.d -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c.obj -c /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c.obj -MF CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c.obj.d -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c.obj -c /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c > CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c > CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c.i
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8.c.s
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c.obj: /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c.obj -MF CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c.obj.d -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c.obj -c /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c.obj -MF CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c.obj.d -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c.obj -c /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c > CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c > CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c.i
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any.c.s
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c.obj: /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c.obj -MF CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c.obj.d -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c.obj -c /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c.obj -MF CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c.obj.d -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c.obj -c /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c > CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c > CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c.i
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_avepool_HWC_s8_any_act.c.s
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c.obj: /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c.obj -MF CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c.obj.d -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c.obj -c /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c.obj -MF CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c.obj.d -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c.obj -c /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c > CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c > CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c.i
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s16_any_act.c.s
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c.obj: /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c.obj -MF CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c.obj.d -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c.obj -c /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c.obj -MF CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c.obj.d -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c.obj -c /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c > CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c > CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c.i
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8.c.s
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c.obj: /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c.obj -MF CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c.obj.d -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c.obj -c /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c.obj -MF CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c.obj.d -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c.obj -c /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c > CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c > CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c.i
 
 CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c -o CMakeFiles/test.dir/Source/PoolingFunctions/riscv_nn_maxpool_HWC_s8_any_act.c.s
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c.obj: /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c.obj -MF CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c.obj.d -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c.obj -c /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c.obj -MF CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c.obj.d -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c.obj -c /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c > CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c > CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c.i
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax2d_f32.c.s
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c.obj: /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c.obj -MF CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c.obj.d -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c.obj -c /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c.obj -MF CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c.obj.d -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c.obj -c /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c > CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c > CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c.i
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32.c.s
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c.obj: /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c.obj -MF CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c.obj.d -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c.obj -c /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c.obj -MF CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c.obj.d -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c.obj -c /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c > CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c > CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c.i
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_f32_2pass.c.s
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c.obj: /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c.obj -MF CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c.obj.d -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c.obj -c /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c.obj -MF CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c.obj.d -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c.obj -c /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c > CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c > CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c.i
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_fast.c.s
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c.obj: /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c.obj -MF CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c.obj.d -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c.obj -c /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c.obj -MF CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c.obj.d -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c.obj -c /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c > CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c > CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c.i
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s16_hp.c.s
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c.obj: /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c.obj -MF CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c.obj.d -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c.obj -c /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c.obj -MF CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c.obj.d -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c.obj -c /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c > CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c > CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c.i
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_fast.c.s
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c.obj: /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c.obj -MF CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c.obj.d -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c.obj -c /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c.obj -MF CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c.obj.d -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c.obj -c /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c > CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c > CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c.i
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_hp.c.s
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c.obj: /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c.obj -MF CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c.obj.d -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c.obj -c /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c.obj -MF CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c.obj.d -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c.obj -c /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c > CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c > CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c.i
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_s8_s16_hp.c.s
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c.obj: /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c.obj -MF CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c.obj.d -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c.obj -c /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c.obj -MF CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c.obj.d -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c.obj -c /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c > CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c > CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c.i
 
 CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c -o CMakeFiles/test.dir/Source/SoftmaxFunctions/riscv_nn_softmax_u8_hp.c.s
 
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c.obj: /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/test.dir/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c
 
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c > CMakeFiles/test.dir/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c > CMakeFiles/test.dir/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c.i
 
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c -o CMakeFiles/test.dir/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c -o CMakeFiles/test.dir/Source/UtilFunctions/lstm_calculate_gate_s8_s16.c.s
 
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_step_s8.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_step_s8.c.obj: /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_step_s8.c
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_step_s8.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/test.dir/Source/UtilFunctions/lstm_step_s8.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/lstm_step_s8.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/lstm_step_s8.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/lstm_step_s8.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_step_s8.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/lstm_step_s8.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/lstm_step_s8.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/lstm_step_s8.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_step_s8.c
 
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_step_s8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/UtilFunctions/lstm_step_s8.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_step_s8.c > CMakeFiles/test.dir/Source/UtilFunctions/lstm_step_s8.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_step_s8.c > CMakeFiles/test.dir/Source/UtilFunctions/lstm_step_s8.c.i
 
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_step_s8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/UtilFunctions/lstm_step_s8.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_step_s8.c -o CMakeFiles/test.dir/Source/UtilFunctions/lstm_step_s8.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_step_s8.c -o CMakeFiles/test.dir/Source/UtilFunctions/lstm_step_s8.c.s
 
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c.obj: /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c
 
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c > CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c > CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c.i
 
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c -o CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c -o CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_and_output_s16_s8.c.s
 
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_s16.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_s16.c.obj: /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_cell_state_s16.c
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_s16.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_s16.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_s16.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_s16.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_s16.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_cell_state_s16.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_s16.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_s16.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_s16.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_cell_state_s16.c
 
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_s16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_s16.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_cell_state_s16.c > CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_s16.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_cell_state_s16.c > CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_s16.c.i
 
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_s16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_s16.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_cell_state_s16.c -o CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_s16.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_cell_state_s16.c -o CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_cell_state_s16.c.s
 
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_output_s16_s8.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_output_s16_s8.c.obj: /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_output_s16_s8.c
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_output_s16_s8.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_output_s16_s8.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_output_s16_s8.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_output_s16_s8.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_output_s16_s8.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_output_s16_s8.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_output_s16_s8.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_output_s16_s8.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_output_s16_s8.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_output_s16_s8.c
 
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_output_s16_s8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_output_s16_s8.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_output_s16_s8.c > CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_output_s16_s8.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_output_s16_s8.c > CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_output_s16_s8.c.i
 
 CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_output_s16_s8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_output_s16_s8.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_output_s16_s8.c -o CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_output_s16_s8.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/lstm_update_output_s16_s8.c -o CMakeFiles/test.dir/Source/UtilFunctions/lstm_update_output_s16_s8.c.s
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_exp_f32.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_exp_f32.c.obj: /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_exp_f32.c
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_exp_f32.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_exp_f32.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_exp_f32.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_exp_f32.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_exp_f32.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_exp_f32.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_exp_f32.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_exp_f32.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_exp_f32.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_exp_f32.c
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_exp_f32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_exp_f32.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_exp_f32.c > CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_exp_f32.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_exp_f32.c > CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_exp_f32.c.i
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_exp_f32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_exp_f32.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_exp_f32.c -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_exp_f32.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_exp_f32.c -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_exp_f32.c.s
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c.obj: /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c > CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c > CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c.i
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_lstm_unidirectional_s8.c.s
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_reshape_s8.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_reshape_s8.c.obj: /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_reshape_s8.c
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_reshape_s8.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_reshape_s8.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_reshape_s8.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_reshape_s8.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_reshape_s8.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_reshape_s8.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_reshape_s8.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_reshape_s8.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_reshape_s8.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_reshape_s8.c
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_reshape_s8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_reshape_s8.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_reshape_s8.c > CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_reshape_s8.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_reshape_s8.c > CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_reshape_s8.c.i
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_reshape_s8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_reshape_s8.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_reshape_s8.c -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_reshape_s8.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_reshape_s8.c -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_reshape_s8.c.s
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8.c.obj: /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_svdf_s8.c
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_svdf_s8.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_svdf_s8.c
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_svdf_s8.c > CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_svdf_s8.c > CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8.c.i
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_svdf_s8.c -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_svdf_s8.c -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8.c.s
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c.obj: /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c > CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c > CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c.i
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_svdf_s8_state_s8.c.s
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_top_k_s8.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_top_k_s8.c.obj: /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_top_k_s8.c
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_top_k_s8.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_top_k_s8.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_top_k_s8.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_top_k_s8.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_top_k_s8.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_top_k_s8.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_top_k_s8.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_top_k_s8.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_top_k_s8.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_top_k_s8.c
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_top_k_s8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_top_k_s8.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_top_k_s8.c > CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_top_k_s8.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_top_k_s8.c > CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_top_k_s8.c.i
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_top_k_s8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_top_k_s8.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_top_k_s8.c -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_top_k_s8.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_top_k_s8.c -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_top_k_s8.c.s
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c.obj: /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gtly/Repetition/libnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c.obj"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c.obj -MF CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c.obj.d -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c.obj -c /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c.i"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c > CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c.i
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c > CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c.i
 
 CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c.s"
-	/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c.s
+	/opt/zcc-toolchain/3.2.5/bin/zcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gtly/Repetition/libnn/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c -o CMakeFiles/test.dir/Source/UtilFunctions/riscv_nn_upsampling2d_HWC_s8.c.s
 
 # Object files for target test
 test_OBJECTS = \
