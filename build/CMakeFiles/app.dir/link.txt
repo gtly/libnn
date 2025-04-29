@@ -1,0 +1,1 @@
+/opt/riscv/bin/riscv64-unknown-elf-gcc --sysroot=/opt/riscv/riscv64-unknown-elf CMakeFiles/app.dir/example/example.c.obj -o app  libtest.a -lm 

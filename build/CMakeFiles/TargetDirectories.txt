@@ -1,0 +1,4 @@
+/home/gtly/Repetition/libnn/build/CMakeFiles/test.dir
+/home/gtly/Repetition/libnn/build/CMakeFiles/app.dir
+/home/gtly/Repetition/libnn/build/CMakeFiles/edit_cache.dir
+/home/gtly/Repetition/libnn/build/CMakeFiles/rebuild_cache.dir

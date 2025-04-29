@@ -1,0 +1,33 @@
+CMakeFiles/test.dir/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c.obj: \
+ /home/gtly/Repetition/libnn/Source/ConvolutionFunctions/riscv_nn_conv_HWC_u8_s16_s8_RGB_sym_fast.c \
+ /home/gtly/Repetition/libnn/internal/internal_nn_math.h \
+ /home/gtly/Repetition/libnn/internal/internal_config.h \
+ /home/gtly/Repetition/libnn/internal/internal_nds_config.h \
+ /home/gtly/Repetition/libnn/Include/riscv_math_types.h \
+ /opt/riscv/riscv64-unknown-elf/include/stdint.h \
+ /opt/riscv/riscv64-unknown-elf/include/machine/_default_types.h \
+ /opt/riscv/riscv64-unknown-elf/include/sys/features.h \
+ /opt/riscv/riscv64-unknown-elf/include/_newlib_version.h \
+ /opt/riscv/riscv64-unknown-elf/include/sys/_intsup.h \
+ /opt/riscv/riscv64-unknown-elf/include/sys/_stdint.h \
+ /opt/riscv/riscv64-unknown-elf/include/string.h \
+ /opt/riscv/riscv64-unknown-elf/include/_ansi.h \
+ /opt/riscv/riscv64-unknown-elf/include/newlib.h \
+ /opt/riscv/riscv64-unknown-elf/include/sys/config.h \
+ /opt/riscv/riscv64-unknown-elf/include/machine/ieeefp.h \
+ /opt/riscv/riscv64-unknown-elf/include/sys/reent.h \
+ /opt/riscv/riscv64-unknown-elf/include/_ansi.h \
+ /opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/include/stddef.h \
+ /opt/riscv/riscv64-unknown-elf/include/sys/cdefs.h \
+ /opt/riscv/riscv64-unknown-elf/include/sys/_types.h \
+ /opt/riscv/riscv64-unknown-elf/include/machine/_types.h \
+ /opt/riscv/riscv64-unknown-elf/include/sys/lock.h \
+ /opt/riscv/riscv64-unknown-elf/include/sys/_locale.h \
+ /opt/riscv/riscv64-unknown-elf/include/strings.h \
+ /opt/riscv/riscv64-unknown-elf/include/sys/string.h \
+ /opt/riscv/riscv64-unknown-elf/include/math.h \
+ /home/gtly/Repetition/libnn/internal/internal_isa.h \
+ /home/gtly/Repetition/libnn/Include/riscv_nn_support.h \
+ /home/gtly/Repetition/libnn/Include/riscv_math_types.h \
+ /home/gtly/Repetition/libnn/Include/riscv_nn_types.h \
+ /home/gtly/Repetition/libnn/Include/riscv_nn_activation.h

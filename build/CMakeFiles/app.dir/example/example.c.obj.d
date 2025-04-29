@@ -1,0 +1,25 @@
+CMakeFiles/app.dir/example/example.c.obj: \
+ /home/gtly/Repetition/libnn/example/example.c \
+ /opt/riscv/riscv64-unknown-elf/include/stdio.h \
+ /opt/riscv/riscv64-unknown-elf/include/_ansi.h \
+ /opt/riscv/riscv64-unknown-elf/include/newlib.h \
+ /opt/riscv/riscv64-unknown-elf/include/_newlib_version.h \
+ /opt/riscv/riscv64-unknown-elf/include/sys/config.h \
+ /opt/riscv/riscv64-unknown-elf/include/machine/ieeefp.h \
+ /opt/riscv/riscv64-unknown-elf/include/sys/features.h \
+ /opt/riscv/riscv64-unknown-elf/include/sys/cdefs.h \
+ /opt/riscv/riscv64-unknown-elf/include/machine/_default_types.h \
+ /opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/include/stddef.h \
+ /opt/riscv/lib/gcc/riscv64-unknown-elf/14.2.0/include/stdarg.h \
+ /opt/riscv/riscv64-unknown-elf/include/sys/reent.h \
+ /opt/riscv/riscv64-unknown-elf/include/_ansi.h \
+ /opt/riscv/riscv64-unknown-elf/include/sys/_types.h \
+ /opt/riscv/riscv64-unknown-elf/include/machine/_types.h \
+ /opt/riscv/riscv64-unknown-elf/include/sys/lock.h \
+ /opt/riscv/riscv64-unknown-elf/include/sys/stdio.h \
+ /home/gtly/Repetition/libnn/Include/riscv_nn_activation.h \
+ /home/gtly/Repetition/libnn/Include/riscv_math_types.h \
+ /opt/riscv/riscv64-unknown-elf/include/stdint.h \
+ /opt/riscv/riscv64-unknown-elf/include/sys/_intsup.h \
+ /opt/riscv/riscv64-unknown-elf/include/sys/_stdint.h \
+ /home/gtly/Repetition/libnn/example/data.h
