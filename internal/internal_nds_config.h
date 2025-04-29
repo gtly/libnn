@@ -150,8 +150,8 @@ extern "C"
 
 #if defined(ENA_DSP_ISA_V5) && defined(ENA_DSP_ISA_64)
     #include <nds_intrinsic.h>
-#else
-    #include <nds32_intrinsic.h>     //Baseline still needs intrinsic functions (e.g. abs).
+//#else
+    //#include <nds32_intrinsic.h>     //Baseline still needs intrinsic functions (e.g. abs).
 #endif
 
 #endif
