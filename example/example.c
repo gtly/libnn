@@ -7,7 +7,7 @@
 int main()
 {
     int i;
-    q7_t *in_out = data;
+    q7_t *in_out =(q7_t *) data;
 
     printf("data before relu:\n");
     for (i=0; i<SIZE; i++)

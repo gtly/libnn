@@ -14,7 +14,7 @@
 CFLAG="-Wall -Werror -O3 -ffunction-sections -fdata-sections -fno-strict-aliasing"
 
 # set the compiler
-CC="${1}"
+CC="zcc"
 
 # get the extra compilation flags
 if [ -n "${2}" ]; then

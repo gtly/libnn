@@ -1,12 +1,12 @@
 #CC=${CROSS_COMPILE}clang
-CC=${CROSS_COMPILE}gcc
-AS=${CROSS_COMPILE}as
-AR=${CROSS_COMPILE}ar
-RANLIB=${CROSS_COMPILE}ranlib
-OBJCOPY=${CROSS_COMPILE}objcopy
-OBJDUMP=${CROSS_COMPILE}objdump
-SZ=${CROSS_COMPILE}size
-RUN=${CROSS_COMPILE}run
+CC=zcc
+AS=as
+AR=ar
+OBJDUMP=/opt/zcc-toolchain/3.2.5/bin/llvm-objdump
+RANLIB=ranlib
+OBJCOPY=objcopy
+SZ=size
+RUN=run
 
 LIB_NAME=libnn
 
@@ -14,13 +14,14 @@ VERSION =
 SO_VERSION =
 
 MKFILE_PATH := $(abspath $(lastword $(MAKEFILE_LIST)))
-LIB_ROOT := $(shell dirname $(MKFILE_PATH))
+LIB_ROOT := $(shell dirname $(MKFILE_PATH))/zcc
+LIB_ROOT_PASS := $(shell dirname $(MKFILE_PATH))
 
-INCLUDE_DIR := -I${LIB_ROOT}/Include -I${LIB_ROOT}/internal
-CFLAGS := $(INCLUDE_DIR) -c $(NDS_CFLAGG)
+INCLUDE_DIR := -I${LIB_ROOT_PASS}/Include -I${LIB_ROOT_PASS}/internal
+CFLAGS += -I$(RISCV_SYSROOT)/include
 
 # source code root path
-SRC_ROOT := $(LIB_ROOT)/Source
+SRC_ROOT := $(LIB_ROOT_PASS)/Source
 
 # folders of all category function
 SRC_DIR := $(addprefix $(SRC_ROOT)/, ActivationFunctions \
@@ -55,6 +56,10 @@ OBJS := $(addprefix $(BUILD)/,$(SRCS:.c=.o))
 
 .PHONY: all clean
 
+# 定义根目录和构建目录（取消末尾的重新定义）
+
+
+
 all: $(OBJS)
 	@echo
 	@echo '*** Build Andes NN library ***'
@@ -71,5 +76,5 @@ $(BUILD):
 	mkdir -p $(BUILD)
 
 clean:
-	rm -rf $(LIB_ROOT)/*.a $(LIB_ROOT)/*.objdump $(BUILD)/
+	rm -rf $(LIB_ROOT)/*.a $(LIB_ROOT)/*.objdump $(BUILD)
 	@echo 'clean done'
